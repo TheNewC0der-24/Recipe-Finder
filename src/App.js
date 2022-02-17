@@ -1,4 +1,6 @@
 import './App.css';
+import searchicon from './search-icon.svg';
+import hamburger from './hamburger.svg';
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Header, AppName, AppIcon, SearchBar, SearchIcon, SearchInput } from './components/Header';
@@ -86,11 +88,11 @@ function App() {
     <Container>
       <Header>
         <AppName>
-          <AppIcon src='/hamburger.svg' />
+          <AppIcon src={hamburger} />
           Recipe Finder
         </AppName>
         <SearchBar>
-          <SearchIcon src='/search-icon.svg' />
+          <SearchIcon src={searchicon} />
           <SearchInput onChange={onTextChange} placeholder='Search Recipe' />
         </SearchBar>
       </Header>
@@ -98,7 +100,7 @@ function App() {
       <RecipeListContainer>
         {recipeList.length ? recipeList.map((recipe, index) => (
           <RecipeComponent key={index} recipe={recipe.recipe} />
-        )) : <Placeholder src="hamburger.svg" />}
+        )) : <Placeholder src={hamburger} />}
       </RecipeListContainer>
     </Container >
   );
