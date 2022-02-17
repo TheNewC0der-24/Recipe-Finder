@@ -1,3 +1,37 @@
+<h1 align='center'>🍽️ Recipe Finder</h1>
+
+## About
+Recipe Finder is a recipe search engine that lets you search by ingredients you have at home. Find thousands of recipes you can make right now.
+
+## Features
+Recipe Finder helps you to find recipes of delicious foods with `Ingridients` also you can `See More` about particular recipe by just one click on see more recipe button.
+
+>_This application is hosted on Netlify._
+
+## Built With
+| React JS |
+| --- |
+
+## Dependencies Installed
+```
+npm install styled-components
+npm install axios
+npm install @material-ui/core
+```
+
+## Preview
+![image](https://github.com/TheNewC0der-24/recipe-finder/blob/master/Preview.png)
+
+## Link
+```
+https://recipe-finderapp.netlify.app/
+```
+
+---
+<p align='center'>Hope you like this React Application 😊</p>
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
